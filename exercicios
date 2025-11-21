@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Meus Exercícios HTML/CSS</title>
+</head>
+<body>
+    <h1>Bem-vinda ao meu repositório de exercícios HTML e CSS!</h1>
+    <ul>
+        <li><a href="ex 001/">Exercício 001</a></li>
+        <li><a href="ex 002/">Exercício 002</a></li>
+        <li><a href="ex 003/">Exercício 003</a></li>
+        <li><a href="ex 004/">Exercício 004</a></li>
+        <li><a href="Tabelas/">Tabelas</a></li>
+        <li><a href="PROJETO/">Projeto</a></li>
+    </ul>
+</body>
+</html>
