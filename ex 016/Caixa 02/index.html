@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(153, 150, 150);
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.75);
+        }
+        main{
+            background-color: white;
+             padding: 10px;
+             margin: 10px;
+             border-radius: 20px;
+             box-shadow: inset 4px 4px 9px 0px rgb(87, 79, 79);
+        }
+        article{
+            background-color: lightgrey;
+        }
+        article>aside{
+            background-color: rgb(179, 176, 176);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 0px;
+        }
+        footer>p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <NAv>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </NAv>
+    </header>
+    <main>
+        <section id="assuntos">
+            ESPORTE POLITICA & TECNOLOGIA
+        </section>
+        <section id="noticias">
+        </section>
+        <article>
+            <h1>Noticias sobre o Brasil</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio molestiae nihil natus, esse tempora impedit a quam assumenda, fugit rem at asperiores voluptatem doloribus itaque adipisci veritatis dolores magnam quis.</p>
+            <aside>
+                Artigo escrito por Jose da Silva
+            </aside>
+        </article>
+    </main>
+
+    <footer>
+        Documento por Aline Talessa
+
+    </footer>
+    
+</body>
+</html>

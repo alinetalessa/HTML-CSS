@@ -1,0 +1,115 @@
+
+@charset "utf-8";
+
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bebas+Neue&family=Lobster&family=Oswald:wght@400;700&family=Montserrat:wght@300;600&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap);
+
+
+:root{
+    --cor1: #D0D7D9;
+    --cor2: #BF9663;   
+    --cor3: #A67951;
+    --cor4: #734230;
+    --cor5: #40211E;
+
+    --font-destaque:  "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    --font-titulo: 'Poppins', sans-serif; 
+}
+
+body{
+    padding: 0;
+    background-color:#BF9663;
+    color: var(#D0D7D9);
+    line-height: 1.6;
+}
+a{
+    color: black;   
+    text-decoration: none; 
+    font-weight: bold; 
+}
+header {
+    background: #A67951;
+    color: #D0D7D9;
+    padding: 30px 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px #A67951;
+}
+header h1 {
+        font-family: var(--font-destaque);
+        margin: 40px;
+        line-height: 1.4;
+}
+header p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+nav{
+    padding: 0px 20px;
+    background: #c4a47e;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    
+}
+ nav a{
+    color: #ecd4b6;
+    text-decoration: none;
+}
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #D0D7D9;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;    
+    color:  #A67951;
+    margin-top: 30px;
+}
+aside{
+    background-color: #BF9663;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px #A67951;
+}
+aside img {
+    display: block;
+    margin: 0 auto;
+}
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.quote {
+    background: #D0D7D9;
+    padding: 15px;
+    border-left: 4px solid #BF9663;
+    font-style: italic;
+    margin: 25px 0;
+}
+footer{
+    background: #A67951;
+    color: #D0D7D9;
+    font-size: 0.8em;
+    padding: -1px;
+}
+footer p{
+    text-align: center;
+}
+
+footer a{
+     color: #D0D7D9
+}
